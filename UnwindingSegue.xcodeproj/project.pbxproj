@@ -15,13 +15,15 @@
 		BEC521AC1922F4D200CD4155 /* AVRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC521AB1922F4D200CD4155 /* AVRAppDelegate.m */; };
 		BEC521AF1922F4D200CD4155 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEC521AD1922F4D200CD4155 /* Main.storyboard */; };
 		BEC521B21922F4D200CD4155 /* AVRMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC521B11922F4D200CD4155 /* AVRMasterViewController.m */; };
-		BEC521B51922F4D200CD4155 /* AVRDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC521B41922F4D200CD4155 /* AVRDetailViewController.m */; };
 		BEC521B71922F4D200CD4155 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEC521B61922F4D200CD4155 /* Images.xcassets */; };
 		BEC521BE1922F4D200CD4155 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC521BD1922F4D200CD4155 /* XCTest.framework */; };
 		BEC521BF1922F4D200CD4155 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC5219B1922F4D200CD4155 /* Foundation.framework */; };
 		BEC521C01922F4D200CD4155 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC5219F1922F4D200CD4155 /* UIKit.framework */; };
 		BEC521C81922F4D200CD4155 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BEC521C61922F4D200CD4155 /* InfoPlist.strings */; };
 		BEC521CA1922F4D200CD4155 /* UnwindingSegueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC521C91922F4D200CD4155 /* UnwindingSegueTests.m */; };
+		BEC521D81923022200CD4155 /* AVRStartingDelegateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC521D71923022200CD4155 /* AVRStartingDelegateViewController.m */; };
+		BEC521DB1923025900CD4155 /* AVRFirstNameDelegateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC521DA1923025900CD4155 /* AVRFirstNameDelegateViewController.m */; };
+		BEC521DE192302C600CD4155 /* AVRLastNameDelegateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC521DD192302C600CD4155 /* AVRLastNameDelegateViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,14 +50,18 @@
 		BEC521AE1922F4D200CD4155 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BEC521B01922F4D200CD4155 /* AVRMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVRMasterViewController.h; sourceTree = "<group>"; };
 		BEC521B11922F4D200CD4155 /* AVRMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVRMasterViewController.m; sourceTree = "<group>"; };
-		BEC521B31922F4D200CD4155 /* AVRDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVRDetailViewController.h; sourceTree = "<group>"; };
-		BEC521B41922F4D200CD4155 /* AVRDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVRDetailViewController.m; sourceTree = "<group>"; };
 		BEC521B61922F4D200CD4155 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BEC521BC1922F4D200CD4155 /* UnwindingSegueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnwindingSegueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEC521BD1922F4D200CD4155 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		BEC521C51922F4D200CD4155 /* UnwindingSegueTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UnwindingSegueTests-Info.plist"; sourceTree = "<group>"; };
 		BEC521C71922F4D200CD4155 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BEC521C91922F4D200CD4155 /* UnwindingSegueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnwindingSegueTests.m; sourceTree = "<group>"; };
+		BEC521D61923022200CD4155 /* AVRStartingDelegateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVRStartingDelegateViewController.h; sourceTree = "<group>"; };
+		BEC521D71923022200CD4155 /* AVRStartingDelegateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVRStartingDelegateViewController.m; sourceTree = "<group>"; };
+		BEC521D91923025900CD4155 /* AVRFirstNameDelegateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVRFirstNameDelegateViewController.h; sourceTree = "<group>"; };
+		BEC521DA1923025900CD4155 /* AVRFirstNameDelegateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVRFirstNameDelegateViewController.m; sourceTree = "<group>"; };
+		BEC521DC192302C600CD4155 /* AVRLastNameDelegateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVRLastNameDelegateViewController.h; sourceTree = "<group>"; };
+		BEC521DD192302C600CD4155 /* AVRLastNameDelegateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVRLastNameDelegateViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,8 +126,9 @@
 				BEC521AD1922F4D200CD4155 /* Main.storyboard */,
 				BEC521B01922F4D200CD4155 /* AVRMasterViewController.h */,
 				BEC521B11922F4D200CD4155 /* AVRMasterViewController.m */,
-				BEC521B31922F4D200CD4155 /* AVRDetailViewController.h */,
-				BEC521B41922F4D200CD4155 /* AVRDetailViewController.m */,
+				BEC521D31923009D00CD4155 /* Name Entry Delegate */,
+				BEC521D41923011700CD4155 /* Name Entry Blocks */,
+				BEC521D51923012800CD4155 /* Name Entry Unwinding */,
 				BEC521B61922F4D200CD4155 /* Images.xcassets */,
 				BEC521A21922F4D200CD4155 /* Supporting Files */,
 			);
@@ -155,6 +162,33 @@
 				BEC521C61922F4D200CD4155 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BEC521D31923009D00CD4155 /* Name Entry Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				BEC521D61923022200CD4155 /* AVRStartingDelegateViewController.h */,
+				BEC521D71923022200CD4155 /* AVRStartingDelegateViewController.m */,
+				BEC521D91923025900CD4155 /* AVRFirstNameDelegateViewController.h */,
+				BEC521DA1923025900CD4155 /* AVRFirstNameDelegateViewController.m */,
+				BEC521DC192302C600CD4155 /* AVRLastNameDelegateViewController.h */,
+				BEC521DD192302C600CD4155 /* AVRLastNameDelegateViewController.m */,
+			);
+			name = "Name Entry Delegate";
+			sourceTree = "<group>";
+		};
+		BEC521D41923011700CD4155 /* Name Entry Blocks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Name Entry Blocks";
+			sourceTree = "<group>";
+		};
+		BEC521D51923012800CD4155 /* Name Entry Unwinding */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Name Entry Unwinding";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,9 +290,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEC521AC1922F4D200CD4155 /* AVRAppDelegate.m in Sources */,
+				BEC521D81923022200CD4155 /* AVRStartingDelegateViewController.m in Sources */,
+				BEC521DB1923025900CD4155 /* AVRFirstNameDelegateViewController.m in Sources */,
 				BEC521B21922F4D200CD4155 /* AVRMasterViewController.m in Sources */,
+				BEC521DE192302C600CD4155 /* AVRLastNameDelegateViewController.m in Sources */,
 				BEC521A81922F4D200CD4155 /* main.m in Sources */,
-				BEC521B51922F4D200CD4155 /* AVRDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
