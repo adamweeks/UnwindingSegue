@@ -371,17 +371,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="AsT-Qq-CIM">
-                        <barButtonItem key="rightBarButtonItem" style="plain" id="W74-uz-Nyy">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="6tQ-c1-Kfe">
-                                <rect key="frame" x="265" y="7" width="39" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="NEXT">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="qcU-QS-PIe" kind="modal" id="jBE-Dg-mTR"/>
-                                </connections>
-                            </button>
+                        <barButtonItem key="rightBarButtonItem" title="Next" id="Yxh-05-DlU">
+                            <connections>
+                                <segue destination="qcU-QS-PIe" kind="modal" id="fp6-22-AWp"/>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
